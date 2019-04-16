@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>103355904072-q8rioh2asibh0mo152l7fla1daf275u3.apps.googleusercontent.com</string>
+	<string>103355904072-hvde7eoig628i5gh3ufra0dogno22kd7.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.103355904072-q8rioh2asibh0mo152l7fla1daf275u3</string>
+	<string>com.googleusercontent.apps.103355904072-hvde7eoig628i5gh3ufra0dogno22kd7</string>
 	<key>API_KEY</key>
 	<string>AIzaSyC1JpDJOSLTTptcGBgcatBCkRZwTAosEv8</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>ufg.br.WebService</string>
+	<string>ufg.br.projetofinal</string>
 	<key>PROJECT_ID</key>
 	<string>projetofinaliosufg</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:103355904072:ios:04367d9f1984df74</string>
+	<string>1:103355904072:ios:2955ddb794edeaed</string>
 	<key>DATABASE_URL</key>
 	<string>https://projetofinaliosufg.firebaseio.com</string>
 </dict>

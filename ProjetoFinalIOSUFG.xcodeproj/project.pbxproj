@@ -13,9 +13,9 @@
 		9834FB0B22591123000DF9F5 /* ProjetoFinalIOSUFG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9834FB0922591123000DF9F5 /* ProjetoFinalIOSUFG.xcdatamodeld */; };
 		9834FB0D22591124000DF9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9834FB0C22591124000DF9F5 /* Assets.xcassets */; };
 		9834FB1022591124000DF9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9834FB0E22591124000DF9F5 /* LaunchScreen.storyboard */; };
+		9842E58A2266668A008B8CFB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842E5892266668A008B8CFB /* LoginViewController.swift */; };
+		9842E59022666C0A008B8CFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9842E58F22666C09008B8CFB /* GoogleService-Info.plist */; };
 		986887B2225928E700B8DF50 /* NovaReceitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986887B1225928E700B8DF50 /* NovaReceitaViewController.swift */; };
-		986887B422592B1400B8DF50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986887B322592B1400B8DF50 /* LoginViewController.swift */; };
-		986887B622592D8C00B8DF50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 986887B522592D8C00B8DF50 /* GoogleService-Info.plist */; };
 		AD52C8B5F0FE154EC5F769EA /* Pods_ProjetoFinalIOSUFG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CEDE2587944ED1AAC13F1 /* Pods_ProjetoFinalIOSUFG.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +31,9 @@
 		9834FB0C22591124000DF9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9834FB0F22591124000DF9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9834FB1122591124000DF9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9842E5892266668A008B8CFB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9842E58F22666C09008B8CFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		986887B1225928E700B8DF50 /* NovaReceitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaReceitaViewController.swift; sourceTree = "<group>"; };
-		986887B322592B1400B8DF50 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		986887B522592D8C00B8DF50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		9834FB0122591123000DF9F5 /* ProjetoFinalIOSUFG */ = {
 			isa = PBXGroup;
 			children = (
-				986887B522592D8C00B8DF50 /* GoogleService-Info.plist */,
 				9834FB0222591123000DF9F5 /* AppDelegate.swift */,
+				9842E58F22666C09008B8CFB /* GoogleService-Info.plist */,
 				9834FB0422591123000DF9F5 /* ViewController.swift */,
 				9834FB0622591123000DF9F5 /* Main.storyboard */,
 				9834FB0C22591124000DF9F5 /* Assets.xcassets */,
@@ -86,7 +86,7 @@
 				9834FB1122591124000DF9F5 /* Info.plist */,
 				9834FB0922591123000DF9F5 /* ProjetoFinalIOSUFG.xcdatamodeld */,
 				986887B1225928E700B8DF50 /* NovaReceitaViewController.swift */,
-				986887B322592B1400B8DF50 /* LoginViewController.swift */,
+				9842E5892266668A008B8CFB /* LoginViewController.swift */,
 			);
 			path = ProjetoFinalIOSUFG;
 			sourceTree = "<group>";
@@ -97,7 +97,6 @@
 				64CA118B6A6434830D19D30F /* Pods-ProjetoFinalIOSUFG.debug.xcconfig */,
 				6AFC3AF3516F1C9DFD466C66 /* Pods-ProjetoFinalIOSUFG.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +112,7 @@
 				9834FAFC22591123000DF9F5 /* Frameworks */,
 				9834FAFD22591123000DF9F5 /* Resources */,
 				5531F17E9EB022AD17B0CFEE /* [CP] Embed Pods Frameworks */,
+				2C11082A032FDB2DD8380940 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9834FB1022591124000DF9F5 /* LaunchScreen.storyboard in Resources */,
-				986887B622592D8C00B8DF50 /* GoogleService-Info.plist in Resources */,
+				9842E59022666C0A008B8CFB /* GoogleService-Info.plist in Resources */,
 				9834FB0D22591124000DF9F5 /* Assets.xcassets in Resources */,
 				9834FB0822591123000DF9F5 /* Main.storyboard in Resources */,
 			);
@@ -171,6 +171,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2C11082A032FDB2DD8380940 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjetoFinalIOSUFG/Pods-ProjetoFinalIOSUFG-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjetoFinalIOSUFG/Pods-ProjetoFinalIOSUFG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5531F17E9EB022AD17B0CFEE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,14 +218,40 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ProjetoFinalIOSUFG/Pods-ProjetoFinalIOSUFG-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +291,7 @@
 				9834FB0522591123000DF9F5 /* ViewController.swift in Sources */,
 				9834FB0322591123000DF9F5 /* AppDelegate.swift in Sources */,
 				986887B2225928E700B8DF50 /* NovaReceitaViewController.swift in Sources */,
-				986887B422592B1400B8DF50 /* LoginViewController.swift in Sources */,
+				9842E58A2266668A008B8CFB /* LoginViewController.swift in Sources */,
 				9834FB0B22591123000DF9F5 /* ProjetoFinalIOSUFG.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ufg.br.WebService;
+				PRODUCT_BUNDLE_IDENTIFIER = ufg.br.projetofinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ufg.br.WebService;
+				PRODUCT_BUNDLE_IDENTIFIER = ufg.br.projetofinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

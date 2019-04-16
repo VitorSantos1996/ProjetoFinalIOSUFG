@@ -7,5 +7,8 @@ target 'ProjetoFinalIOSUFG' do
 
   # Pods for ProjetoFinalIOSUFG
 	pod 'Firebase/Core'
+	pod 'FirebaseUI'
+	pod 'Firebase/Auth'
+	pod 'FirebaseUI/Phone'
 
 end
