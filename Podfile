@@ -7,8 +7,12 @@ target 'ProjetoFinalIOSUFG' do
 
   # Pods for ProjetoFinalIOSUFG
 	pod 'Firebase/Core'
+	pod 'Firebase/Database'
+	pod 'Firebase/Storage'
+	pod 'Firebase'
 	pod 'FirebaseUI'
 	pod 'Firebase/Auth'
 	pod 'FirebaseUI/Phone'
+  pod 'Kingfisher', '~> 5.0'
 
 end

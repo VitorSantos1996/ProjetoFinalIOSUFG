@@ -15,7 +15,17 @@
 		9834FB1022591124000DF9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9834FB0E22591124000DF9F5 /* LaunchScreen.storyboard */; };
 		9842E58A2266668A008B8CFB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842E5892266668A008B8CFB /* LoginViewController.swift */; };
 		9842E59022666C0A008B8CFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9842E58F22666C09008B8CFB /* GoogleService-Info.plist */; };
+		984C4A0922690539002B14E9 /* FavoritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A0822690539002B14E9 /* FavoritoViewController.swift */; };
+		984C4A0B22690550002B14E9 /* ReceitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A0A22690550002B14E9 /* ReceitaViewController.swift */; };
+		984C4A0D226905B3002B14E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A0C226905B3002B14E9 /* DetailViewController.swift */; };
+		984C4A0F22690652002B14E9 /* FavoritoControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A0E22690652002B14E9 /* FavoritoControllerTableViewCell.swift */; };
+		984C4A1122690663002B14E9 /* ReceitaControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A1022690663002B14E9 /* ReceitaControllerTableViewCell.swift */; };
+		984C4A13226914F9002B14E9 /* FirebaseDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A12226914F9002B14E9 /* FirebaseDataBase.swift */; };
+		984C4A15226916BD002B14E9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A14226916BD002B14E9 /* ProfileViewController.swift */; };
+		984C4A1922691CF5002B14E9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A1822691CF5002B14E9 /* TabBarViewController.swift */; };
+		984C4A1B226A6A43002B14E9 /* ReceitaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C4A1A226A6A43002B14E9 /* ReceitaModel.swift */; };
 		986887B2225928E700B8DF50 /* NovaReceitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986887B1225928E700B8DF50 /* NovaReceitaViewController.swift */; };
+		988269D02277708C00EC0D78 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988269CF2277708C00EC0D78 /* PersistenceManager.swift */; };
 		AD52C8B5F0FE154EC5F769EA /* Pods_ProjetoFinalIOSUFG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CEDE2587944ED1AAC13F1 /* Pods_ProjetoFinalIOSUFG.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +43,17 @@
 		9834FB1122591124000DF9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9842E5892266668A008B8CFB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9842E58F22666C09008B8CFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		984C4A0822690539002B14E9 /* FavoritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritoViewController.swift; sourceTree = "<group>"; };
+		984C4A0A22690550002B14E9 /* ReceitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaViewController.swift; sourceTree = "<group>"; };
+		984C4A0C226905B3002B14E9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		984C4A0E22690652002B14E9 /* FavoritoControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritoControllerTableViewCell.swift; sourceTree = "<group>"; };
+		984C4A1022690663002B14E9 /* ReceitaControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaControllerTableViewCell.swift; sourceTree = "<group>"; };
+		984C4A12226914F9002B14E9 /* FirebaseDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataBase.swift; sourceTree = "<group>"; };
+		984C4A14226916BD002B14E9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		984C4A1822691CF5002B14E9 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		984C4A1A226A6A43002B14E9 /* ReceitaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaModel.swift; sourceTree = "<group>"; };
 		986887B1225928E700B8DF50 /* NovaReceitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaReceitaViewController.swift; sourceTree = "<group>"; };
+		988269CF2277708C00EC0D78 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +107,16 @@
 				9834FB0922591123000DF9F5 /* ProjetoFinalIOSUFG.xcdatamodeld */,
 				986887B1225928E700B8DF50 /* NovaReceitaViewController.swift */,
 				9842E5892266668A008B8CFB /* LoginViewController.swift */,
+				984C4A0822690539002B14E9 /* FavoritoViewController.swift */,
+				984C4A0A22690550002B14E9 /* ReceitaViewController.swift */,
+				984C4A0C226905B3002B14E9 /* DetailViewController.swift */,
+				984C4A0E22690652002B14E9 /* FavoritoControllerTableViewCell.swift */,
+				984C4A1022690663002B14E9 /* ReceitaControllerTableViewCell.swift */,
+				984C4A12226914F9002B14E9 /* FirebaseDataBase.swift */,
+				984C4A14226916BD002B14E9 /* ProfileViewController.swift */,
+				984C4A1822691CF5002B14E9 /* TabBarViewController.swift */,
+				984C4A1A226A6A43002B14E9 /* ReceitaModel.swift */,
+				988269CF2277708C00EC0D78 /* PersistenceManager.swift */,
 			);
 			path = ProjetoFinalIOSUFG;
 			sourceTree = "<group>";
@@ -225,6 +255,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
@@ -245,6 +276,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
@@ -289,10 +321,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9834FB0522591123000DF9F5 /* ViewController.swift in Sources */,
+				984C4A1B226A6A43002B14E9 /* ReceitaModel.swift in Sources */,
 				9834FB0322591123000DF9F5 /* AppDelegate.swift in Sources */,
+				984C4A0922690539002B14E9 /* FavoritoViewController.swift in Sources */,
 				986887B2225928E700B8DF50 /* NovaReceitaViewController.swift in Sources */,
+				984C4A0B22690550002B14E9 /* ReceitaViewController.swift in Sources */,
+				988269D02277708C00EC0D78 /* PersistenceManager.swift in Sources */,
 				9842E58A2266668A008B8CFB /* LoginViewController.swift in Sources */,
+				984C4A15226916BD002B14E9 /* ProfileViewController.swift in Sources */,
 				9834FB0B22591123000DF9F5 /* ProjetoFinalIOSUFG.xcdatamodeld in Sources */,
+				984C4A13226914F9002B14E9 /* FirebaseDataBase.swift in Sources */,
+				984C4A0F22690652002B14E9 /* FavoritoControllerTableViewCell.swift in Sources */,
+				984C4A1922691CF5002B14E9 /* TabBarViewController.swift in Sources */,
+				984C4A0D226905B3002B14E9 /* DetailViewController.swift in Sources */,
+				984C4A1122690663002B14E9 /* ReceitaControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
