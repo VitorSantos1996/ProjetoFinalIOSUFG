@@ -19,13 +19,13 @@ class ReceitaControllerTableViewCell: UITableViewCell {
     func tapGesture() {
         let tapGesture = UITapGestureRecognizer()
         tapGesture.addTarget(self, action: #selector(ReceitaControllerTableViewCell.openGalley(tapGesture:)))
-        vrImageReceita.isUserInteractionEnabled = true
-        vrImageReceita.addGestureRecognizer(tapGesture)
+        vrFavoritoReceita.isUserInteractionEnabled = true
+        vrFavoritoReceita.addGestureRecognizer(tapGesture)
 
     }
 
     @objc func openGalley(tapGesture: UITapGestureRecognizer) {
-        vrImageReceita.image = UIImage(named: "coracao-aceso-83.5")
+        vrFavoritoReceita.image = UIImage(named: "coracao-aceso-83.5")
     }
     
     var receitaModel: ReceitaModel?{
